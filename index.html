@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section fade-in">
+            <div class="about-container">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Photo" class="profile-photo">
+                <div>
+                    <h1>Hello! I'm Ivan Ivanov</h1>
+                    <p>Web developer passionate about creating modern and user-friendly websites. I love learning new things and sharing knowledge.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section fade-in">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5, CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Git, GitHub</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+        <section id="projects" class="section fade-in">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>ToDo App</h3>
+                    <p>A simple task management app built with React.</p>
+                    <a href="https://github.com/example/todo-app" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Photo Gallery</h3>
+                    <p>A gallery of works with filtering and responsive design.</p>
+                    <a href="https://github.com/example/photo-portfolio" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Business Landing Page</h3>
+                    <p>Modern landing page with animations and contact form.</p>
+                    <a href="https://github.com/example/business-landing" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section fade-in">
+            <h2>Contact Me</h2>
+            <form id="contactForm" novalidate>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+                <div id="formMessage"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ivan Ivanov</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

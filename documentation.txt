@@ -1,0 +1,24 @@
+Site structure:
+
+- index.html — main page with sections: Home / About Me, Skills, Projects / Portfolio, Contact.
+- style.css — styling: light background, pastel accents, responsive, smooth animations.
+- script.js — logic: form validation, smooth scrolling, section reveal animation.
+- README.md — instructions for running and section descriptions.
+- documentation.txt — description of structure, prompts, challenges, and takeaways.
+
+Prompts used for generation:
+
+- "Create a personal website with the following criteria: ..." (full requirements list from the task).
+
+Possible challenges and how AI helped:
+
+- Responsive design and animations: AI suggested ready-made solutions using flexbox, grid, and CSS transitions.
+- Form validation: AI implemented simple and clear logic in JS.
+- Fast generation of structure and modern design: AI saved time and suggested best practices.
+
+What you can learn:
+
+- How to structure a modern single-page website.
+- Use flexbox, grid, and animations for responsive design.
+- Implement form validation and smooth scrolling in JS.
+- Prepare project documentation and README.
