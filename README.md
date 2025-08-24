@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Website
 
 ## How to run the site locally
@@ -16,3 +17,6 @@
 - **Projects / Portfolio** — 2–3 projects with descriptions and links.
 - **Contact** — feedback/contact form.
 - Navigation menu for section switching.
+=======
+# website-using-Copilot
+>>>>>>> 9e4ae53994c15f6b2e5a7035e73024af7a7824e8
